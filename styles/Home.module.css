@@ -64,15 +64,52 @@
 }
 .boxContainer{
     width: 30%;
-    height: 220px;
+    height: 235px;
     border-radius: 8px;
     background-color: #fff;
-    box-shadow: 0 0 7px gray;
+    box-shadow: 0 0 7px rgb(181, 184, 184);
+}
+.boxContainer h1{
+    font-size: 1.5em;
+    position: relative;
+    left:30px;
+    top:-10px;
+}
+.boxContainer p{
+    font-size: 0.9em;
+    position: relative;
+    left:30px;
+    top:-20px;
+    color: rgb(65, 64, 64);
+}
+.boxContainer ul{
+    line-height: 5px;
+    font-size: 0.8em;
+    color: rgb(65, 64, 64);
+    position: relative;
+    left:-20px;
+    top:-10px;
+}
+.boxContainer ul li{
+    list-style-type: none;
+    margin-top: -15px;
+}
+.boxContainer .btn{
+    background-color: rgb(189,84,254);
+    width: 72%;
+    position: relative;
+    left:14%;
+    top:-25px;
+    border-radius: 20px;
+    font-size: 0.75em;
+    height: 30px;
 }
 .statisticsConatiner{
     width: 63%;
-    height: 220px;
+    height: 235px;
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0 0 7px gray;
+    background-image: url('../public/images/statistik.jpg');
+    background-size: 100% 235px;
 }

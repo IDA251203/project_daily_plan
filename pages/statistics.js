@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 const Statistics = () => {
   return (
-    <div className={styles.statisticsConatiner}>Enterprise</div>
+    <div className={styles.statisticsConatiner}></div>
   )
 }
 export default Statistics;
