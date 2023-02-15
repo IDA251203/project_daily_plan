@@ -1,7 +1,12 @@
-import React from 'react'
+
 import styles from '../styles/Home.module.css'
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 const Information = () => {
+  const name= localStorage.getItem("name");
+  const lastname=localStorage.getItem("lastname");
+
   return (
     <div className={styles.container}>
         <div className={styles.box}>
@@ -9,16 +14,13 @@ const Information = () => {
             <p className={styles.text1}>Setup Daily Plans</p>
         </div>
         
-        <div className={styles.box}>
-           <div className={styles.search}></div>
-           <p className={styles.text2}>Search...</p>
-        </div>
         
+
         <div className={styles.box}>
-           <p className={styles.text3}>Name</p>
-           <p className={styles.text4}>Detail here</p>
+          <p className={styles.text3}>{name}</p>
+          <p className={styles.text4}>{lastname}</p>
         </div>
-        
+
         <div className={styles.box}>
             <div className={styles.profile}></div>
 

@@ -112,4 +112,8 @@
     box-shadow: 0 0 7px gray;
     background-image: url('../public/images/statistik.jpg');
     background-size: 100% 235px;
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 35px;
 }

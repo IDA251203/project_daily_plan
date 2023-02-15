@@ -9,6 +9,8 @@ import Testing from './testing';
 import Statistics from './statistics';
 
 const Mainpage = () => {
+  
+
   return (
     <div className={styles.container}>
       <div className={styles.box1}>

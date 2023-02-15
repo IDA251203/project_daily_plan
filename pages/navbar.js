@@ -12,7 +12,7 @@ function Navbar(){
         <div className={styles.card}>
             <div className={styles.imgbox}></div>
             <p>Have question?</p>
-            <button className={styles.btn1}>Contact us</button>
+            <Link href="/contact"><button className={styles.btn1}>Contact us</button></Link>
         </div>
         </div>
     </div>

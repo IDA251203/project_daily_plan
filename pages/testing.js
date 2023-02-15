@@ -3,30 +3,36 @@ import styles from '../styles/Home.module.css';
 
 import Checkbox from '@mui/material/Checkbox';
 import { Button } from '@mui/material';
-
+ 
 const Testing = () => {
+
+  const sevenpm=localStorage.getItem("sevenpm");
+  const eightpm=localStorage.getItem("eightpm");
+  const ninepm=localStorage.getItem("ninepm");
+  const tenpm=localStorage.getItem("tenpm");
+
   return (
     <div className={styles.boxContainer}>
-      <h1>Testing</h1>
-      <p>For every user</p>
+      <h1>7pm - 10pm</h1>
+      <p>The fourth part of the day</p>
 
       <ul>
         <li>
-          <Checkbox color="secondary" for="value2" checked="false"/>
-          <label id="value1">All analyics features</label>
+          <Checkbox color="secondary" for="value1" defaultChecked/>
+          <label id="value1">{sevenpm}</label>
         </li>
         <li>
-          <Checkbox color="secondary" for="value2" checked="false"/>
-          <label id="value2">Up to 250,000 tracked</label>
+          <Checkbox color="secondary" for="value2" defaultChecked/>
+          <label id="value2">{eightpm}</label>
         </li>
         
         <li>
-          <Checkbox color="secondary" for="value2" checked="false"/>
-          <label id="value1">base Support</label>
+          <Checkbox color="secondary" for="value3" defaultChecked/>
+          <label id="value3">{ninepm}</label>
         </li>
         <li>
-          <Checkbox color="secondary" for="value2" checked="false"/>
-          <label id="value2">Up to 3 team members</label>
+          <Checkbox color="secondary" for="value4" defaultChecked/>
+          <label id="value4">{tenpm}</label>
         </li>
       </ul>
 
