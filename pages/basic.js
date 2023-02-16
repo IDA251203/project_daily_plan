@@ -5,10 +5,10 @@ import Checkbox from '@mui/material/Checkbox';
 import { Button } from '@mui/material';
 
 const Basic = () => {
-  const sevenAm=localStorage.getItem("sevenam");
-  const eightAm=localStorage.getItem("eightam");
-  const nineAm=localStorage.getItem("nineam");
-  const tenAm=localStorage.getItem("tenam");
+  const sevenAm=window.localStorage.getItem("sevenam");
+  const eightAm=window.localStorage.getItem("eightam");
+  const nineAm=window.localStorage.getItem("nineam");
+  const tenAm=window.localStorage.getItem("tenam");
   return (
     <div className={styles.boxContainer}>
       <h1>7am - 10am</h1>

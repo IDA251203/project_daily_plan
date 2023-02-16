@@ -7,10 +7,10 @@ import { Button } from '@mui/material';
 
 const Pro = () => {
 
-  const elevenAm=localStorage.getItem("elevenam");
-  const twelweAm=localStorage.getItem("twelweam");
-  const onepm=localStorage.getItem("onepm");
-  const twoPm=localStorage.getItem("twopm");
+  const elevenAm=window.localStorage.getItem("elevenam");
+  const twelweAm=window.localStorage.getItem("twelweam");
+  const onepm=window.localStorage.getItem("onepm");
+  const twoPm=window.localStorage.getItem("twopm");
 
   return (
     <div className={styles.boxContainer}>

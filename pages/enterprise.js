@@ -9,10 +9,10 @@ import { Button } from '@mui/material';
 
 const Enterprise = () => {
   
-  const threepm=localStorage.getItem("threepm");
-  const fourpm=localStorage.getItem("fourpm");
-  const fivepm=localStorage.getItem("fivepm");
-  const sixpm=localStorage.getItem("sixpm");
+  const threepm=window.localStorage.getItem("threepm");
+  const fourpm=window.localStorage.getItem("fourpm");
+  const fivepm=window.localStorage.getItem("fivepm");
+  const sixpm=window.localStorage.getItem("sixpm");
 
   return (
     <div className={styles.boxContainer}>

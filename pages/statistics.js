@@ -3,22 +3,22 @@ import styles from '../styles/Home.module.css'
 
 const Statistics = () => {
 
-  const sevenAm=localStorage.getItem("sevenam");
-  const eightAm=localStorage.getItem("eightam");
-  const nineAm=localStorage.getItem("nineam");
-  const tenAm=localStorage.getItem("tenam");
-  const elevenAm=localStorage.getItem("elevenam");
-  const twelweAm=localStorage.getItem("twelweam");
-  const onepm=localStorage.getItem("onepm");
-  const twoPm=localStorage.getItem("twopm");
-  const threepm=localStorage.getItem("threepm");
-  const fourpm=localStorage.getItem("fourpm");
-  const fivepm=localStorage.getItem("fivepm");
-  const sixpm=localStorage.getItem("sixpm");
-  const sevenpm=localStorage.getItem("sevenpm");
-  const eightpm=localStorage.getItem("eightpm");
-  const ninepm=localStorage.getItem("ninepm");
-  const tenpm=localStorage.getItem("tenpm");
+  const sevenAm=window.localStorage.getItem("sevenam");
+  const eightAm=window.localStorage.getItem("eightam");
+  const nineAm=window.localStorage.getItem("nineam");
+  const tenAm=window.localStorage.getItem("tenam");
+  const elevenAm=window.localStorage.getItem("elevenam");
+  const twelweAm=window.localStorage.getItem("twelweam");
+  const onepm=window.localStorage.getItem("onepm");
+  const twoPm=window.localStorage.getItem("twopm");
+  const threepm=window.localStorage.getItem("threepm");
+  const fourpm=window.localStorage.getItem("fourpm");
+  const fivepm=window.localStorage.getItem("fivepm");
+  const sixpm=window.localStorage.getItem("sixpm");
+  const sevenpm=window.localStorage.getItem("sevenpm");
+  const eightpm=window.localStorage.getItem("eightpm");
+  const ninepm=window.localStorage.getItem("ninepm");
+  const tenpm=window.localStorage.getItem("tenpm");
 
   const d = new Date();
   let hour = d.getHours();

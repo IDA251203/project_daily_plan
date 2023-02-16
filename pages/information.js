@@ -1,11 +1,13 @@
 
 import styles from '../styles/Home.module.css'
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import axios from "axios";
 
 const Information = () => {
+ 
   const name = window.localStorage.getItem("name");
   const lastname = window.localStorage.getItem("lastname");
+  
 
   return (
     <div className={styles.container}>
